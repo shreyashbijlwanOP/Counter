@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@100;200;300;400;500;700&family=Ubuntu:wght@300&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: RGB(241, 245, 248);
+    font-family: 'Poppins', sans-serif;
+    
+}
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;   
+}
+.container
+{
+    text-align: center;
+    padding: 1em;
+}
+h2{
+    font-size: 4rem;
+    letter-spacing: .4rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 6rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 1rem;
+    font-weight: bolder;
+    color: RGB(0, 128, 1);
+    letter-spacing: .4rem;
+    
+}
+button
+{
+    border: none;
+    text-transform: uppercase;
+    font-size: larger;
+    margin: 1em;
+    padding: .2em 1em;
+    border: 4px  solid RGB(111, 113, 115);
+    border-radius: .5em;
+    letter-spacing: .2rem;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: #6f7173;
+    color: white;
+    transition: background-color .5s ease;
+}
+
+@media(max-width :600px)
+{
+       *{
+            font-size: 90%;
+        }
+        
+        button{
+            display: block;
+            margin: 1em auto;
+        }
+
+    
+
+}
